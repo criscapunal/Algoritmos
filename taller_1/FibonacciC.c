@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-unsigned int fibonacciInt(unsigned int n) {
+xxxxx fibonacci(xxxxxx n) {
 
     if (n <= 1) 
         return 1;
 
-    unsigned int fib = 1;
-    unsigned int prevFib = 1;
+    xxxxx fib = 1;
+    xxxxx prevFib = 1;
 
-    for (unsigned int i = 2; i < n; i++) {
+    for (xxxxx i = 2; i < n; i++) {
 
-        unsigned int temp = fib;
+        xxxxx temp = fib;
         fib += prevFib;
         prevFib = temp;
 
@@ -20,60 +20,14 @@ unsigned int fibonacciInt(unsigned int n) {
 
 }
 
-unsigned long int fibonacciLongInt(unsigned long int n) {
-
-    if (n <= 1) 
-        return 1;
-
-    unsigned long int fib = 1;
-    unsigned long int prevFib = 1;
-
-    for (unsigned long int i = 2; i < n; i++) {
-
-        unsigned long int temp = fib;
-        fib += prevFib;
-        prevFib = temp;
-
-    }
-
-    return fib;
-
-}
-
-
-unsigned long long int fibonacciLongLongInt(unsigned long long int n) {
-
-    if (n <= 1) 
-        return 1;
-
-    unsigned long long int fib = 1;
-    unsigned long long int prevFib = 1;
-
-    for (unsigned long long int i = 2; i < n; i++) {
-
-        unsigned long long int temp = fib;
-        fib += prevFib;
-        prevFib = temp;
-
-    }
-
-    return fib;
-
-}
 
 void main () {
-
-    //unsigned int number;
-    //unsigned int long number;
-    //unsigned int long long number;
-
-
-    //number = fibonacciInt(8);
-    //number = fibonacciLongInt(8);
-
-    //printf("%u\n", number);
-    //printf("%lu\n", number);
-    //printf("%llu\n", number);
+    
+    // signed char          127
+    // short int            32767
+    // int                  32767
+    // long int             2147483647
+    // long long int        9223372036854775807
 
     
 }
