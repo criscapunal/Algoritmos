@@ -1,21 +1,25 @@
+/*
+	byte 	127			overflow fibonacciIterative(12)
+	char 	65535			overflow fibonacciIterative(25
+	long 	9223372036854775807L	overflow fibonacciIterative(93)
+	short 	32767			overflow fibonacciIterative(24)
+	
+	Reemplace xxxxx por algun tipo de dato.
+*/
+
+
 
 public class Fibo {
-
-	/*
-	public Fibo() {
-		// TODO Auto-generated constructor stub
-	}
-	*/
 	
-	public int fibonacciIterative(int n) {
+	public xxxxx fibonacciIterative(xxxxx n) {
 		if(n <= 1) {
 			return n;
 		}
-		int fib = 1;
-		int prevFib = 1;
+		xxxxx fib = 1;
+		xxxxx prevFib = 1;
 		
-		for(int i=2; i<n; i++) {
-			int temp = fib;
+		for(xxxxx i=2; i<n; i++) {
+			xxxxx temp = fib;
 			fib+= prevFib;
 			prevFib = temp;
 		}
@@ -23,16 +27,7 @@ public class Fibo {
 	}
 	
 	public static void main(String[] args) {
-		Fibo fib = new Fibo();
 		
-		System.out.println("Iterative version:");
-		System.out.println(fib.fibonacciIterative(5));
-		System.out.println(fib.fibonacciIterative(6));
-		System.out.println(fib.fibonacciIterative(7));
-		System.out.println(fib.fibonacciIterative(8));
-		System.out.println(fib.fibonacciIterative(10));
-		System.out.println(fib.fibonacciIterative(20));
-		System.out.println(fib.fibonacciIterative(30));
 	}
 
 }
