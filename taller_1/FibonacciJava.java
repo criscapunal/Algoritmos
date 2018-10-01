@@ -4,7 +4,7 @@
 	long 	9223372036854775807L	overflow fibonacciIterative(93)
 	short 	32767			overflow fibonacciIterative(24)
 	
-	Reemplace xxxxx por algun tipo de dato.
+	Reemplaza xxxxx por alguno de los anteriores tipos de datos.
 */
 
 
